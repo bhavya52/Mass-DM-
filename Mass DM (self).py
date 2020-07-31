@@ -11,4 +11,4 @@ async def on_connect():
     except:
        print(f"couldnt message: {user.name}")
 
-client.run('(your token goes here(', bot=False)
+client.run('(your token goes here)', bot=False)
