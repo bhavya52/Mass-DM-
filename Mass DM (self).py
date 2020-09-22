@@ -6,9 +6,9 @@ client = discord.Client()
 async def on_connect():
   for user in client.user.friends:
     try:
-      await user.send('(whatever u wanna send the users)')
+      await user.send('MESSAGE HERE')
       print(f"messaged: {user.name}")
     except:
        print(f"couldnt message: {user.name}")
 
-client.run('(your token goes here)', bot=False)
+client.run('TOKEN HERE', bot=False)
